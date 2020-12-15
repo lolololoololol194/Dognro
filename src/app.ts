@@ -11,9 +11,8 @@ let config: IRhythmBotConfig = requireFile('../bot-config.json');
 
 const bot = new RhythmBot(config);
 
-if (!!config && config.discord.token === '<BOT-TOKEN>') {
-    bot.logger.debug('Invalid Token - Create valid token in the Discord Developer Portal');
-    console.log('Invalid Token - Create valid token in the Discord Developer Portal');
+if (!!config && config.discord.token === '<Nzg4MzE5NDAzNDUxMjE5OTY4.X9hxqA.A6R3ytLPwZF7oMxqSNrgNejgUhg>') {
+    bot.logger.debug
     process.exit(0);
 }
 
