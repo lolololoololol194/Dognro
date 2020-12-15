@@ -11,7 +11,7 @@ let config: IRhythmBotConfig = requireFile('../bot-config.json');
 
 const bot = new RhythmBot(config);
 
-if (!!config && config.discord.token === '<Nzg4MzE5NDAzNDUxMjE5OTY4.X9hxqA.A6R3ytLPwZF7oMxqSNrgNejgUhg>') {
+if (!!config && config.discord.token === '<Nzg4MzE5NDAzNDUxMjE5OTY4.X9hxqA.pBeNIg5iq0XOtHK5dXytw0aiJ88>') {
     bot.logger.debug
     process.exit(0);
 }
