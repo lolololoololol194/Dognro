@@ -7,7 +7,7 @@ export class BotStatus {
         this.client = client;
     }
 
-    setBanner(status: string) {
+    setBanner(status: Taking Names and writing checks!) {
         this.client.user.setPresence({
             activity: {
                 name: status
@@ -15,7 +15,7 @@ export class BotStatus {
         });
     }
 
-    setActivity(activity: PresenceStatusData) {
+    setActivity(activity: playing) {
         this.client.user.setStatus(activity)
     }
     
